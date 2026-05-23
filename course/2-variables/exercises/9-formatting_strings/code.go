@@ -7,6 +7,7 @@ func main() {
 	const openRate = 30.5
 
 	// ?
+	msg := fmt.Sprintf("Hi %s, your open rate is %0.1f percent", name, openRate)
 
 	// don't edit below this line
 
