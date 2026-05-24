@@ -1,7 +1,4 @@
 {
   "question": "Can a type fulfill multiple interfaces?",
-  "answers": [
-    "Yes, why not?",
-    "Never"
-  ]
+  "answers": ["Yes, why not?✅", "Never"]
 }
