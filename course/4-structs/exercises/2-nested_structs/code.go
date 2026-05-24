@@ -17,7 +17,10 @@ type user struct {
 
 func canSendMessage(mToSend messageToSend) bool {
 	// ?
-	return true
+	if (len(mToSend.sender.name) != 0 && mToSend.sender.number != 0) && (len(mToSend.recipient.name) != 0 && mToSend.recipient.number != 0) {
+		return true
+	}
+	return false
 }
 
 // don't touch below this line
