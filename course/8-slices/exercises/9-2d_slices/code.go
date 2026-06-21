@@ -3,7 +3,15 @@ package main
 import "fmt"
 
 func createMatrix(rows, cols int) [][]int {
-	// ?
+	ans := [][]int{}
+	for r :=0; r < rows; r++{
+		row:=[]int{}
+		for c :=0; c < cols; c++{
+			row = append(row,r * c)
+		}
+		ans = append(ans,row)
+	}
+	return ans
 }
 
 // dont edit below this line
